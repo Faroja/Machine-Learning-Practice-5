@@ -1,0 +1,7 @@
+1. Use 'Admission_Predict' dataset
+        - Features: 'GRE Score', 'TOEFL Score', 'University Rating', 'SOP', 'LOR', 'CGPA'
+        - Target: 'Chance of Admit'
+2. Perform data splitting with the proportion of 80:20 and random_state = 42.
+3. Use Ridge Regression and Lasso Regression models with various alpha values ​​(100000, 10000, 1000, 100, 10, 1, 0.1, 0.01, 0.001).
+4. What is the best alpha value for each model?
+5. Compare the performance of the two models in terms of their MSE values, which one is better?
